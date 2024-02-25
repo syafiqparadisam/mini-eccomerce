@@ -2,54 +2,42 @@ const express = require("express");
 const cors = require("cors");
 const handleLogger = require("./middleware/handleLogger");
 const app = express();
-const tableRouter = require("./routes/tableRoute");
-const port = process.env.PORT || 8080;
-const registerRouter = require("./routes/usersRoute");
 const expressWinston = require("express-winston");
-const winston = require("winston/lib/winston/config");
 const cookieParser = require("cookie-parser");
 const corsOptions = require("./middleware/corsOptions");
 const connectDB = require("./config/connectMongoDB");
-const mongoose = require("mongoose");
 const verifyJwt = require("./middleware/verifyJwt.js");
+const fileUpload = require("express-fileupload");
 require("dotenv").config();
 
 // LOGGER
 app.use(expressWinston.logger(handleLogger.successLogs));
-
+console.log(process.env.APPLICATION)
 // koneksi FE ke BE lancar
-app.use(cors(corsOptions));
-
+app.use(cors(process.env.APPLICATION === "dev" ? null : corsOptions));
 connectDB();
 
 app.use(express.urlencoded({ extended: false }));
 
-app.use(express.json());
+app.use("*", express.json());
+
+// MIDDLEWARE FOR FILE UPLOAD
 
 // COOKIE - PARSER
 app.use(cookieParser());
 
-app.get("/hai", (req, res) => {
-  res.sendStatus(200);
-});
+// Public Routes
+app.use("/api/products", require("./routes/productsRoute"));
+app.use("/api/auth", require("./routes/authRoute.js"));
 
-app.use("/api/users", require("./routes/usersRoute.js"));
-
-app.use(verifyJwt);
-
+// Verify User
+app.use("*", verifyJwt);
 // PROTECTED ROUTES
-app.use("api/users/profile", require("./routes/profileRoute"));
+app.use("/api/user/profile", require("./routes/profileRoute"));
+app.use("/api/user/cart",require("./routes/cartRoute"))
+// app.use("/api/users/order", require("./routes/orderRoute"));
 
 // ERROR LOGGER
 app.use(expressWinston.errorLogger(handleLogger.errorLogs));
 
-mongoose.connection.once("open", () => {
-  console.log("Connected To MongoDB");
-  app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
-  });
-});
-
-// app.listen(port, () => {
-//   console.log(`Example app listening on port ${port}`);
-// });
+module.exports = app;

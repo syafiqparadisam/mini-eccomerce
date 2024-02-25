@@ -13,10 +13,11 @@ const users = new mongoose.Schema({
     type: String,
     required: true,
   },
-  refreshToken: {
-    type: String,
-    required: false,
-  },
+  refreshToken: [String],
+  budget: {
+    type: Number,
+    required: false
+  }
 });
 
 module.exports = mongoose.model("User", users);

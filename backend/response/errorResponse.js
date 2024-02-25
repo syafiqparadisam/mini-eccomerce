@@ -17,7 +17,6 @@ class errResponse {
     this.error = {
       name: error.name,
       details: error.message,
-      stack: [error.stack],
     };
   }
 }
