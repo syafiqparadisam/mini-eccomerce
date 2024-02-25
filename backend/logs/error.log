@@ -1,0 +1,1069 @@
+TIME: Sat Sep 09 2023 05:41:08 GMT+0700 (Western Indonesia Time), ID: ce8801dc-1aaa-41e6-9d1d-d34ac2630b2f, 
+name: MongooseError,	 message: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:206:11)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongoose/lib/connection.js:738:34)
+    at Mongoose.connect (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongoose/lib/index.js:404:15)
+    at connectDB (/home/syafiq/Desktop/codingan/todolist/backend/config/connectMongoDB.js:6:20)
+    at Object.<anonymous> (/home/syafiq/Desktop/codingan/todolist/backend/index.js:23:1)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+
+TIME: Sun Sep 10 2023 20:58:33 GMT+0700 (Western Indonesia Time), ID: 391de396-d215-4d19-9372-33ee72638892, 
+name: MongooseError,	 message: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:206:11)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongoose/lib/connection.js:738:34)
+    at Mongoose.connect (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongoose/lib/index.js:404:15)
+    at connectDB (/home/syafiq/Desktop/codingan/todolist/backend/config/connectMongoDB.js:6:20)
+    at Object.<anonymous> (/home/syafiq/Desktop/codingan/todolist/backend/index.js:23:1)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+
+TIME: Wed Sep 13 2023 13:50:29 GMT+0700 (Western Indonesia Time), ID: bcd97e14-88e1-4da6-8b61-76e08c606084, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Wed Sep 13 2023 21:12:47 GMT+0700 (Western Indonesia Time), ID: 7a319c4f-5776-4e47-9dff-d1b25fc85e1e, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Thu Sep 14 2023 15:18:31 GMT+0700 (Western Indonesia Time), ID: bf6a127a-2481-414f-b391-c23a07c977b7, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Sun Sep 17 2023 21:16:53 GMT+0700 (Western Indonesia Time), ID: 2cf05f9d-8c09-4e38-8e24-9b7da740a2e2, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Sun Sep 17 2023 21:47:42 GMT+0700 (Western Indonesia Time), ID: 55fd41b8-cf38-4e0a-9e97-6a6cf315c8a8, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Mon Sep 18 2023 15:14:40 GMT+0700 (Western Indonesia Time), ID: 6de56796-7038-4fdd-a365-04e05e44841b, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Wed Sep 20 2023 07:41:07 GMT+0700 (Western Indonesia Time), ID: 099ffa69-e1c0-48a0-99f8-9ccd706a0a7d, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Wed Sep 20 2023 20:45:01 GMT+0700 (Western Indonesia Time), ID: 15289cc4-0a1a-4af6-8568-bc75f3222617, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Wed Sep 20 2023 21:15:51 GMT+0700 (Western Indonesia Time), ID: 98ff2020-1201-4c61-94c5-f387fea1af05, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Sun Sep 24 2023 19:11:58 GMT+0700 (Western Indonesia Time), ID: 741a0d8a-4a78-47b3-ae73-1fbc1dc1f464, 
+name: MongooseServerSelectionError,	 message: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongoose/lib/connection.js:788:11)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongoose/lib/connection.js:763:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async connectDB (/home/syafiq/Desktop/codingan/todolist/backend/config/connectMongoDB.js:6:5)
+
+TIME: Sun Sep 24 2023 19:14:01 GMT+0700 (Western Indonesia Time), ID: 65ec88e1-ad3e-412a-98c4-a1cd4a6c8abc, 
+name: MongoNetworkTimeoutError,	 message: connection timed out
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongodb/lib/cmap/connect.js:369:20)
+    at TLSSocket.<anonymous> (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongodb/lib/cmap/connect.js:290:22)
+    at Object.onceWrapper (node:events:628:28)
+    at TLSSocket.emit (node:events:514:28)
+    at Socket._onTimeout (node:net:571:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+
+TIME: Sun Sep 24 2023 20:56:03 GMT+0700 (Western Indonesia Time), ID: 8af0b784-f4c7-44e2-9369-57acb9230906, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Wed Sep 27 2023 20:58:25 GMT+0700 (Western Indonesia Time), ID: 4261b491-a101-4401-8c0a-8d90ea128820, 
+name: MongooseServerSelectionError,	 message: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongoose/lib/connection.js:788:11)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongoose/lib/connection.js:763:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async connectDB (/home/syafiq/Desktop/codingan/todolist/backend/config/connectMongoDB.js:6:3)
+
+TIME: Wed Sep 27 2023 21:01:08 GMT+0700 (Western Indonesia Time), ID: 8f51c436-b79b-40d4-9fef-a8228ba2c2e6, 
+name: MongoNetworkError,	 message: read ECONNRESET
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongoNetworkError: read ECONNRESET
+    at connectionFailureError (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongodb/lib/cmap/connect.js:367:20)
+    at TLSSocket.<anonymous> (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongodb/lib/cmap/connect.js:290:22)
+    at Object.onceWrapper (node:events:629:26)
+    at TLSSocket.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+TIME: Fri Sep 29 2023 14:07:18 GMT+0700 (Western Indonesia Time), ID: 80e0f14e-b681-421e-95de-9af5b2b90e11, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 14:07:24 GMT+0700 (Western Indonesia Time), ID: c2a9ddc4-1da9-4bc0-8dba-68efa6273f53, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 14:37:41 GMT+0700 (Western Indonesia Time), ID: 0804fce9-0912-4f1d-bafb-2024fcbdaefa, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:35:34 GMT+0700 (Western Indonesia Time), ID: ee2008b7-872a-4bcf-97d3-c79b25677fff, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:36:09 GMT+0700 (Western Indonesia Time), ID: a525d9e2-0561-4f2d-827b-bd91478352ea, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:37:08 GMT+0700 (Western Indonesia Time), ID: 40762bd7-2fee-444d-878b-416a345c301b, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:37:47 GMT+0700 (Western Indonesia Time), ID: e8a06228-7057-4697-aa14-a63b71adb142, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:38:33 GMT+0700 (Western Indonesia Time), ID: a967f958-741f-4f16-8bb3-ec9775c73542, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:38:40 GMT+0700 (Western Indonesia Time), ID: b6cdfb0f-d7db-4d1b-847e-ff6d54693645, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:39:17 GMT+0700 (Western Indonesia Time), ID: cb67d0e5-a91e-4490-9093-296ba5a43674, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:39:26 GMT+0700 (Western Indonesia Time), ID: 3bd4220d-647e-4b65-878e-b382af7af4ac, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:39:34 GMT+0700 (Western Indonesia Time), ID: b63ba481-8cde-47b1-85e7-7d04ae37b516, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:39:40 GMT+0700 (Western Indonesia Time), ID: cc72af6e-5e0b-463b-8f56-05fbaceb3730, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:40:04 GMT+0700 (Western Indonesia Time), ID: 2e24db7d-38ec-4d2a-a8cd-84ef6213e6e3, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:40:33 GMT+0700 (Western Indonesia Time), ID: b00c0787-2ed0-4c0c-aac0-f67241f664e7, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:40:54 GMT+0700 (Western Indonesia Time), ID: 08361959-8e56-4d06-8a7c-4db3df63925c, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:41:01 GMT+0700 (Western Indonesia Time), ID: 4de5d8a9-7012-46f0-b102-35f4e9c52c8c, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:41:12 GMT+0700 (Western Indonesia Time), ID: 66afe58c-6f30-44ae-87f4-814624539084, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:41:17 GMT+0700 (Western Indonesia Time), ID: b5980c0c-d030-480e-a9a4-702133364225, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:41:28 GMT+0700 (Western Indonesia Time), ID: 3de56755-4fbb-471d-918e-be4c25eaf892, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:41:37 GMT+0700 (Western Indonesia Time), ID: ab5f5375-5474-437a-8cb4-927c8a8b8306, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:41:43 GMT+0700 (Western Indonesia Time), ID: f4f1a13d-d853-423f-94bf-f55eee1b499b, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:41:48 GMT+0700 (Western Indonesia Time), ID: cab10a73-01c4-4228-980c-8cb9b9d6c90c, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:42:01 GMT+0700 (Western Indonesia Time), ID: 8420f849-a2f0-447d-9f5c-8e3a95eedc49, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:42:09 GMT+0700 (Western Indonesia Time), ID: 30e4b110-c95a-44ce-8636-713d7711a3dd, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:42:29 GMT+0700 (Western Indonesia Time), ID: 79391c4d-013b-4811-82e2-18d454fbf9dc, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:42:40 GMT+0700 (Western Indonesia Time), ID: 2049cb8e-f6ed-4bd1-ab7e-de3561ba980d, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:42:49 GMT+0700 (Western Indonesia Time), ID: cde5d277-dac4-4d1d-b3fc-7e49c8a9f3ee, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:43:04 GMT+0700 (Western Indonesia Time), ID: ff795dbe-1b02-49e1-9593-17cb14f31166, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:43:10 GMT+0700 (Western Indonesia Time), ID: 7283eb51-facc-4462-b5d2-5e9e93295e9e, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:43:18 GMT+0700 (Western Indonesia Time), ID: 1ea6ab6c-a095-4e41-a081-870e4ec1ba65, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:43:29 GMT+0700 (Western Indonesia Time), ID: 17ebb4ea-5ca9-4793-b91e-bbe414b0bdb0, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:43:32 GMT+0700 (Western Indonesia Time), ID: ae27bf02-a15f-4dad-a4cd-994110d8930c, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:43:42 GMT+0700 (Western Indonesia Time), ID: d2527c69-f480-41ec-a41a-f428352f145d, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:43:50 GMT+0700 (Western Indonesia Time), ID: 97792c59-f7c3-4ab9-8568-263dc6636480, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:44:40 GMT+0700 (Western Indonesia Time), ID: 2427d261-466d-4dee-ba86-fbcc56ea602a, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:44:52 GMT+0700 (Western Indonesia Time), ID: 0fe61e66-7fae-4a5a-be63-37868ff26d08, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:45:07 GMT+0700 (Western Indonesia Time), ID: 9a280bdf-92f8-4c6c-870a-2cbd00c0bda9, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:45:18 GMT+0700 (Western Indonesia Time), ID: 70ba8a29-1e6d-4da5-9352-bf855a259c0f, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:45:34 GMT+0700 (Western Indonesia Time), ID: 053e4d14-fd2c-4aac-ad40-04c6aba88e70, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:46:18 GMT+0700 (Western Indonesia Time), ID: 3a839a2e-506b-4c85-b227-3297f018fb36, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:46:29 GMT+0700 (Western Indonesia Time), ID: 821157a5-77d2-4eb5-96df-cabd393cc583, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:47:30 GMT+0700 (Western Indonesia Time), ID: 11c23d42-e730-4d15-bc4b-4a25ce65a3ea, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:47:36 GMT+0700 (Western Indonesia Time), ID: c49c7104-9eeb-4422-b9b9-c2ccf0b221e7, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:47:47 GMT+0700 (Western Indonesia Time), ID: 94074a6c-8368-4de7-8e25-bf6bf93e5c54, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:47:55 GMT+0700 (Western Indonesia Time), ID: ac2ad8f2-b0b8-4528-8a9c-8ddb347ce742, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:47:59 GMT+0700 (Western Indonesia Time), ID: b04acd7b-ef91-4bd8-86ea-665433174735, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:48:13 GMT+0700 (Western Indonesia Time), ID: f28949fd-cdb6-4cfd-8b65-93af9e4d8b56, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:48:18 GMT+0700 (Western Indonesia Time), ID: 4dc9100e-fc7b-4f09-8eef-0649838cadbc, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:49:56 GMT+0700 (Western Indonesia Time), ID: 1b310718-c055-45b8-950b-f68106a611ae, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:50:06 GMT+0700 (Western Indonesia Time), ID: 134a8680-060c-4d42-a94a-8dbb51fa9022, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:50:16 GMT+0700 (Western Indonesia Time), ID: 4799252c-8659-4603-b155-0faba7722d30, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:50:21 GMT+0700 (Western Indonesia Time), ID: 6df103b6-fef5-45b2-973e-db816fffcd49, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:50:32 GMT+0700 (Western Indonesia Time), ID: 4974b3fd-8442-4cae-aeab-dfb94fa7cb14, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:50:39 GMT+0700 (Western Indonesia Time), ID: de5289ea-1843-43b4-82bb-83d8ad83e9a3, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:51:04 GMT+0700 (Western Indonesia Time), ID: 5e1a8a18-0624-4196-afd2-c99c7bdce051, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:51:20 GMT+0700 (Western Indonesia Time), ID: 0fab3fdb-cf51-48c5-bcc8-2e92a6448435, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:51:27 GMT+0700 (Western Indonesia Time), ID: bc5b24b2-9575-43bd-9d78-cd4d89969238, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:51:36 GMT+0700 (Western Indonesia Time), ID: d623ffd5-e8cb-45f2-82c2-7d2c01943746, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:51:47 GMT+0700 (Western Indonesia Time), ID: 973e7983-10c6-4d35-b02a-fb39a1d94f65, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:51:55 GMT+0700 (Western Indonesia Time), ID: 7c6626c7-6d04-439a-b3e0-0c571b98a6a0, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:53:01 GMT+0700 (Western Indonesia Time), ID: a4b3015f-5d49-47ba-a370-0e3a15e74b5c, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:53:08 GMT+0700 (Western Indonesia Time), ID: b7dc5635-cef4-41f1-a139-f41317384fac, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:53:20 GMT+0700 (Western Indonesia Time), ID: fb92c7f8-83f9-46e0-b51b-4c3c425fec07, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:53:28 GMT+0700 (Western Indonesia Time), ID: b60fb5ea-8200-44eb-ac3b-456cd1b2c7da, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:53:31 GMT+0700 (Western Indonesia Time), ID: 01ad99eb-160a-4c33-af70-350876660579, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:53:40 GMT+0700 (Western Indonesia Time), ID: 9dac518c-a819-45ac-a90e-5ab669b5cb92, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:53:50 GMT+0700 (Western Indonesia Time), ID: bb15c119-0c4b-40c8-afac-ef36584a4c98, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:54:10 GMT+0700 (Western Indonesia Time), ID: d367e288-297c-4a72-8b58-819d47e420f8, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:54:20 GMT+0700 (Western Indonesia Time), ID: 141be435-1962-4005-b2a6-84ebdd138dd9, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:54:27 GMT+0700 (Western Indonesia Time), ID: 6a5bf073-5a9d-4ecf-a8a1-5b73eba793aa, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:55:42 GMT+0700 (Western Indonesia Time), ID: 4f7747fb-1b1f-44e7-87b3-f6338eacde86, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:55:53 GMT+0700 (Western Indonesia Time), ID: 682e7b9b-6ad3-4c7c-9461-d9b70e8cc83e, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:56:01 GMT+0700 (Western Indonesia Time), ID: 25cf5cdd-492e-49dc-9f42-2069345bd4f8, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:56:55 GMT+0700 (Western Indonesia Time), ID: 6784210b-eb34-47de-8ad8-0f8b921e2266, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:57:03 GMT+0700 (Western Indonesia Time), ID: 15949cb4-3f41-4696-800b-e6607c3a6e34, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:57:11 GMT+0700 (Western Indonesia Time), ID: c6661848-ebf7-4c3f-8ff2-f6c162464939, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:57:36 GMT+0700 (Western Indonesia Time), ID: cde2f8b7-e6a1-405a-93ff-e4c515787296, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:57:42 GMT+0700 (Western Indonesia Time), ID: 2bcb5395-b004-4583-8b51-140eba830618, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:57:48 GMT+0700 (Western Indonesia Time), ID: a2d4accd-9642-4c77-963f-34c42bc8dd1f, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:57:54 GMT+0700 (Western Indonesia Time), ID: f2a33fc6-5da9-4666-a6a0-07a85d3b1d43, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:58:28 GMT+0700 (Western Indonesia Time), ID: 7a3c7eb9-0b1e-490f-a165-8cbe90fbc089, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:58:39 GMT+0700 (Western Indonesia Time), ID: 5d0e4374-f77e-45f3-9f19-b2b15ec57217, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:58:47 GMT+0700 (Western Indonesia Time), ID: dc893a27-6e5d-48f3-904a-fd4ea8b3e294, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:58:52 GMT+0700 (Western Indonesia Time), ID: ca12be8e-cdfc-4497-a4b1-0991a0b5df07, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:59:04 GMT+0700 (Western Indonesia Time), ID: 3fac42a5-7b22-42e8-92df-c21ed6375fa1, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:59:12 GMT+0700 (Western Indonesia Time), ID: 002ead83-951e-4c29-937b-154614c09b3e, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:59:17 GMT+0700 (Western Indonesia Time), ID: 6bb72615-8b6a-4227-baa5-94c212a77b7b, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:59:23 GMT+0700 (Western Indonesia Time), ID: 585a066f-459c-455d-8f54-bd286ed97473, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:59:30 GMT+0700 (Western Indonesia Time), ID: 6dc8b32e-4289-4537-8de2-afecff098292, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:59:39 GMT+0700 (Western Indonesia Time), ID: 33ee6dae-37eb-4ce2-83a0-14046ac4afd7, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:59:47 GMT+0700 (Western Indonesia Time), ID: c2d22a5c-c8dc-4e59-92d7-fa26c30dfad0, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 19:59:55 GMT+0700 (Western Indonesia Time), ID: cab505a8-368f-44b0-9e4d-8efa302d82ff, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:00:02 GMT+0700 (Western Indonesia Time), ID: 496e5957-ad6b-4a5f-bca8-4f77cb107d6b, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:00:06 GMT+0700 (Western Indonesia Time), ID: a69d454c-6401-467c-adeb-b105c4d4069b, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:00:16 GMT+0700 (Western Indonesia Time), ID: 278a2b8e-92b6-481e-8bb6-a05513e1bf0a, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:00:40 GMT+0700 (Western Indonesia Time), ID: bb204374-c8cf-44de-85c6-d08d35cd7389, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:01:01 GMT+0700 (Western Indonesia Time), ID: 65ae6dde-f186-4e38-a82c-8d91653ee9d5, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:01:10 GMT+0700 (Western Indonesia Time), ID: 48cd5e7a-d6ea-4a2b-8cde-be0703384df7, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:01:30 GMT+0700 (Western Indonesia Time), ID: 558759fb-ea44-43e3-80d3-881f7f3b0052, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:01:46 GMT+0700 (Western Indonesia Time), ID: c93ba347-f4f0-457d-93b2-4b3c0de2673b, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:01:51 GMT+0700 (Western Indonesia Time), ID: 42533c60-73df-4d33-af4f-b8844bd50be0, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:02:17 GMT+0700 (Western Indonesia Time), ID: 0123fe86-eb5d-4e4e-a183-3731dbb7bcc2, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:02:23 GMT+0700 (Western Indonesia Time), ID: b795f10f-b982-4a03-956b-e4d10dbb54b5, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:02:36 GMT+0700 (Western Indonesia Time), ID: bb7f3234-4175-42c5-b3e9-220c46155238, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:02:50 GMT+0700 (Western Indonesia Time), ID: 32da8296-500b-45ca-bc96-6e3ca7943e9a, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:03:12 GMT+0700 (Western Indonesia Time), ID: 2260e43d-95d9-4111-9c77-6ec3612226ba, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:03:17 GMT+0700 (Western Indonesia Time), ID: f6058714-19b4-4f46-ab41-cb24fd087185, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:04:10 GMT+0700 (Western Indonesia Time), ID: 25b19b12-f1c7-4617-848a-c7aa50cbd455, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:04:17 GMT+0700 (Western Indonesia Time), ID: 5826b3ec-817d-4315-b2f7-c6798003c655, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:04:22 GMT+0700 (Western Indonesia Time), ID: 20f2e21f-46ee-40e1-975e-beb01b36b79f, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:04:34 GMT+0700 (Western Indonesia Time), ID: 53652982-9e98-41fd-a83e-76924fac2433, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:04:41 GMT+0700 (Western Indonesia Time), ID: 1462f2c2-c7b0-4784-9956-15df7fe8b6cf, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:04:50 GMT+0700 (Western Indonesia Time), ID: 7c5a1d9c-f874-4240-b6d4-29cd6b0151c7, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:04:54 GMT+0700 (Western Indonesia Time), ID: a47a7a00-5013-432e-9e67-ae2362b502e2, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:05:18 GMT+0700 (Western Indonesia Time), ID: d24c94c8-0bda-4d51-8ee4-c7a108f4c1a2, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:05:57 GMT+0700 (Western Indonesia Time), ID: 4f5e65af-06d8-421d-b195-0b0869791d4d, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:07:57 GMT+0700 (Western Indonesia Time), ID: 1c337543-e99c-4df1-a6f1-5ce714a79ac5, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:08:08 GMT+0700 (Western Indonesia Time), ID: 3a054705-1fbe-4b49-9359-805fae5e073e, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:08:18 GMT+0700 (Western Indonesia Time), ID: f8761c58-c216-4991-8185-b4e40a8ca84a, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:08:30 GMT+0700 (Western Indonesia Time), ID: 0de05061-1094-4755-b536-5fd8cedb6274, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:08:38 GMT+0700 (Western Indonesia Time), ID: 59a24882-ea03-4f4e-9a50-d463216606ba, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:09:20 GMT+0700 (Western Indonesia Time), ID: 68de2ea8-085c-4b77-adc2-8fb1750cb487, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:09:25 GMT+0700 (Western Indonesia Time), ID: 37092fcf-cd38-49f1-8a79-5995c8582420, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:09:34 GMT+0700 (Western Indonesia Time), ID: 7908179f-4fa5-4f27-b959-19ecd4ecb7d2, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:09:41 GMT+0700 (Western Indonesia Time), ID: 8e394568-01b6-4713-b853-ec194503e6c6, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:09:47 GMT+0700 (Western Indonesia Time), ID: 2fa5895d-042e-4bd1-a6c1-2465fbeae485, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:10:35 GMT+0700 (Western Indonesia Time), ID: 7d56ebc1-dc67-4487-b05f-fde276ef91c6, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:10:45 GMT+0700 (Western Indonesia Time), ID: 9f8ae3d4-34ae-49b3-a9da-e449099a4012, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:11:06 GMT+0700 (Western Indonesia Time), ID: f93bfae9-9bae-423a-b2bb-516eb0beae25, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:11:14 GMT+0700 (Western Indonesia Time), ID: 734d35d7-fd56-4898-8365-31dd79edef09, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:11:25 GMT+0700 (Western Indonesia Time), ID: f350165f-32fa-4536-ae9f-7a4e145ab054, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:11:34 GMT+0700 (Western Indonesia Time), ID: 88f3e8d6-d094-41e2-b423-83c969b7c8c5, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:11:54 GMT+0700 (Western Indonesia Time), ID: 07b04e5a-03c0-4151-83e9-7b1823cec0d5, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:12:44 GMT+0700 (Western Indonesia Time), ID: 74a84620-e4ba-4884-bdab-b690265a0994, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:12:49 GMT+0700 (Western Indonesia Time), ID: 8cab1195-c256-48b5-b05f-86fb9ba33c25, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:13:39 GMT+0700 (Western Indonesia Time), ID: 8e5b081d-f05e-47f6-960d-10210b24cec1, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:13:47 GMT+0700 (Western Indonesia Time), ID: e23593a7-0d10-4ddd-9324-91da54fd4e80, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Sep 29 2023 20:13:57 GMT+0700 (Western Indonesia Time), ID: 0ba7ba67-3674-4280-b3e8-c1921c4d3c3d, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Sat Sep 30 2023 12:40:13 GMT+0700 (Western Indonesia Time), ID: 0979e81b-6831-4166-876f-232139e63239, 
+name: MongoNetworkError,	 message: read ECONNRESET
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongoNetworkError: read ECONNRESET
+    at connectionFailureError (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongodb/src/cmap/connect.ts:493:14)
+    at TLSSocket.<anonymous> (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongodb/src/cmap/connect.ts:394:16)
+    at Object.onceWrapper (node:events:629:26)
+    at TLSSocket.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+TIME: Sat Sep 30 2023 12:43:17 GMT+0700 (Western Indonesia Time), ID: c8cacc9e-9930-4359-8d74-b7607c209ff4, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Sat Sep 30 2023 14:14:02 GMT+0700 (Western Indonesia Time), ID: 72f21c9a-e00e-4a22-a07a-1b72403d1c80, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Tue Oct 03 2023 21:52:38 GMT+0700 (Western Indonesia Time), ID: 96ac4761-0011-4d25-be64-30351d6b3526, 
+name: MongoNetworkError,	 message: read ECONNRESET
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongoNetworkError: read ECONNRESET
+    at connectionFailureError (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongodb/lib/cmap/connect.js:367:20)
+    at TLSSocket.<anonymous> (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongodb/lib/cmap/connect.js:290:22)
+    at Object.onceWrapper (node:events:629:26)
+    at TLSSocket.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+TIME: Thu Oct 05 2023 20:37:34 GMT+0700 (Western Indonesia Time), ID: dab07d3e-97eb-4b39-8a65-f17ad9c536bf, 
+name: MongoNetworkError,	 message: read ECONNRESET
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongoNetworkError: read ECONNRESET
+    at connectionFailureError (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongodb/lib/cmap/connect.js:367:20)
+    at TLSSocket.<anonymous> (/home/syafiq/Desktop/codingan/todolist/backend/node_modules/mongodb/lib/cmap/connect.js:290:22)
+    at Object.onceWrapper (node:events:629:26)
+    at TLSSocket.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+TIME: Thu Oct 05 2023 20:50:50 GMT+0700 (Western Indonesia Time), ID: c79b4634-15b4-4f20-a892-71574d9b5b45, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Thu Oct 05 2023 21:10:46 GMT+0700 (Western Indonesia Time), ID: a39510ed-35b6-4e05-91c2-06385803a87c, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Sat Oct 14 2023 09:42:01 GMT+0700 (Western Indonesia Time), ID: 2021bcfd-8370-4f3f-b3ac-53bd78f1ffeb, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Fri Oct 20 2023 21:44:56 GMT+0700 (Western Indonesia Time), ID: d8c0cb32-802c-4cad-b750-9b0e62e389fd, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+    at QueryReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+
+TIME: Fri Oct 20 2023 21:45:45 GMT+0700 (Western Indonesia Time), ID: c7276508-8966-40cc-9c4d-a4e09f802af7, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Tue Oct 24 2023 20:33:18 GMT+0700 (Western Indonesia Time), ID: 279d2449-c2cb-46ab-9504-83120b86c942, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Sun Oct 29 2023 12:48:19 GMT+0700 (Western Indonesia Time), ID: 6cd3377e-caeb-4e29-bd9b-af76082f7e8e, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Sun Oct 29 2023 19:13:40 GMT+0700 (Western Indonesia Time), ID: 59af3520-cefe-4c95-a677-861cda0f4353, 
+name: Error,	 message: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+, code: ETIMEOUT,	 syscall: queryTxt,	 hostname: cluster0.u6antwt.mongodb.net,
+ details:Error: queryTxt ETIMEOUT cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
+TIME: Mon Oct 30 2023 20:53:20 GMT+0700 (Western Indonesia Time), ID: 42060ca5-1952-4444-b243-545836b9500e, 
+name: Error,	 message: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+, code: ESERVFAIL,	 syscall: querySrv,	 hostname: _mongodb._tcp.cluster0.u6antwt.mongodb.net,
+ details:Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.u6antwt.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)
+
