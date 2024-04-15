@@ -1,0 +1,59 @@
+TIME: Mon Apr 15 2024 07:32:55 GMT+0700 (Western Indonesia Time), ID: 34ce8ec5-7c60-4cf7-8beb-fb96bf98d266, 
+name: MongooseError,	 message: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:206:11)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:738:34)
+    at Mongoose.connect (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/index.js:404:15)
+    at connectDB (/home/syafiq/Desktop/codingan/eccomerse/backend/config/connectMongoDB.js:6:18)
+    at Object.<anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/index.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+
+TIME: Mon Apr 15 2024 07:33:06 GMT+0700 (Western Indonesia Time), ID: 3d4ede7c-e328-4ef3-8b4f-cb4250b74371, 
+name: MongooseError,	 message: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:206:11)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:738:34)
+    at Mongoose.connect (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/index.js:404:15)
+    at connectDB (/home/syafiq/Desktop/codingan/eccomerse/backend/config/connectMongoDB.js:6:18)
+    at Object.<anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/index.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+
+TIME: Mon Apr 15 2024 07:34:08 GMT+0700 (Western Indonesia Time), ID: da309086-0ac9-4cf7-be61-8557d944e0b4, 
+name: MongoParseError,	 message: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongodb/lib/connection_string.js:191:17)
+    at new MongoClient (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongodb/lib/mongo_client.js:48:63)
+    at NativeConnection.createClient (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:288:14)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:738:34)
+    at Mongoose.connect (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/index.js:404:15)
+    at connectDB (/home/syafiq/Desktop/codingan/eccomerse/backend/config/connectMongoDB.js:6:18)
+    at Object.<anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/index.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+
+TIME: Mon Apr 15 2024 08:30:01 GMT+0700 (Western Indonesia Time), ID: 15c5c903-5670-4c71-a4da-2f27cf839d29, 
+name: ReferenceError,	 message: APP is not defined
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:ReferenceError: APP is not defined
+    at NativeConnection.<anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/server.js:7:13)
+    at Object.onceWrapper (node:events:628:28)
+    at NativeConnection.emit (node:events:514:28)
+    at Connection.onOpen (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:684:8)
+    at _setClient (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:395:8)
+    at NativeConnection.createClient (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:298:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NativeConnection.openUri (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:761:5)
+    at async connectDB (/home/syafiq/Desktop/codingan/eccomerse/backend/config/connectMongoDB.js:6:3)
+

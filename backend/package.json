@@ -4,13 +4,15 @@
   "description": "backend server",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint --ext .js",
+    "build": "",
     "test": "npx jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.0",
+    "bcrypt": "^5.1.1",
     "cloudinary": "^1.41.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
@@ -27,11 +29,15 @@
     "winston": "^3.10.0"
   },
   "devDependencies": {
+    "bun-types": "latest",
     "cross-env": "^7.0.3",
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
     "jest": "^29.7.0",
     "nodemon": "^3.0.1",
     "supertest": "^6.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }

@@ -1,16 +1,12 @@
-version: "3.1"
+version: '3.8'
+
 services:
   mongodb:
     image: mongo:latest
     ports:
       - "27017:27017"
-    container_name: mongodb-eccomerse
-    volumes: 
-      - ./MONGODB_DATA:/data/db
-    environment:
-      - MONGODB_INITDB_ROOT_USERNAME= root
-      - MONGODB_INITDB_ROOT_PASSWORD= root
+    volumes:
+      - ./mongo_data:/data/db
 
 volumes:
-  mongodb_data:
-    driver: local
+  mongo_data:
