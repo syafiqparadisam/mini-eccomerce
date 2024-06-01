@@ -1,14 +1,13 @@
-const errResponse = require("../../response/errorResponse.js");
 const Response = require("../../response/successResponse.js");
 const bcrypt = require("bcrypt");
 const users = require("../../model/userSchema.js");
 const validateUser = require("../../validation/validateUser.js");
 
 const createNewUser = async (req, res) => {
-	const { username, email, password, confirmPassword } = req.body;
-
-	if (confirmPassword !== password) {
-		return res.status(400).json(new Response(400, "Password is not same"));
+	const { username, email, password } = req.body;
+	const isValidate = validateUser.validate(req.body)
+	if (isValidate?.error) {
+		return res.status(400).json(new Response(400, isValidate?.error?.details))
 	}
 
 	try {
@@ -36,13 +35,12 @@ const createNewUser = async (req, res) => {
 			email,
 			password: hashPassword,
 		});
-		res
-			.status(201)
-			.json(
+		return res.status(201).json(
 				new Response(201, `Succesfully created new user ${data[0].username}`)
 			);
 	} catch (err) {
-		res.status(400).json(new errResponse(400, err));
+		console.log("err is", err)
+		return res.sendStatus(500)
 	}
 };
 

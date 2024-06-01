@@ -1,6 +1,5 @@
 const Response = require("../../response/successResponse");
 const product = require("../../model/productSchema");
-const errResponse = require("../../response/errorResponse");
 
 const getProductById = async (req, res) => {
 	const id = req.params.id;
@@ -11,7 +10,7 @@ const getProductById = async (req, res) => {
 
 		res.json(new Response(200, productById));
 	} catch (error) {
-		res.status(404).json(new errResponse(404, error));
+		return res.sendStatus(500)
 	}
 };
 

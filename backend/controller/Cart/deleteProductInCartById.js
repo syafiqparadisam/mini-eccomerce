@@ -1,7 +1,5 @@
 const cart = require("../../model/cartSchema");
-const errResponse = require("../../response/errorResponse");
 const Response = require("../../response/successResponse");
-const mongoose = require("mongoose");
 
 const deleteProductInCartById = async (req, res) => {
 	const { user } = req;
@@ -21,7 +19,7 @@ const deleteProductInCartById = async (req, res) => {
 		await findUser.save();
 		res.status(204).json(new Response(204, "Succesfully deleted product"));
 	} catch (error) {
-		res.status(400).json(new errResponse(400, error));
+		res.sendStatus(500)
 	}
 };
 

@@ -1,6 +1,5 @@
 const cart = require("../../model/cartSchema");
 const products = require("../../model/productSchema");
-const errResponse = require("../../response/errorResponse");
 const Response = require("../../response/successResponse")
 
 const getAllProductsInCart = async (req, res) => {
@@ -15,7 +14,7 @@ const getAllProductsInCart = async (req, res) => {
 		}
 		res.status(200).json(new Response(200, cartUser));
 	} catch (error) {
-		res.status(400).json(new errResponse(400, error));
+		res.sendStatus(500)
 	}
 };
 

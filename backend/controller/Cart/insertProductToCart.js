@@ -1,6 +1,5 @@
 const cart = require("../../model/cartSchema");
 const product = require("../../model/productSchema");
-const errResponse = require("../../response/errorResponse");
 const jwt = require("jsonwebtoken");
 
 const insertProductToCart = async (req, res) => {
@@ -48,7 +47,7 @@ const insertProductToCart = async (req, res) => {
 			}
 		}
 	} catch (error) {
-		res.status(400).json(new errResponse(400, error));
+		return res.sendStatus(500)
 	}
 };
 

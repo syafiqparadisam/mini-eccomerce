@@ -1,5 +1,4 @@
 const cart = require("../../model/cartSchema");
-const errResponse = require("../../response/errorResponse");
 
 const deleteAllProductInCart = async (req, res) => {
 	const { user } = req;

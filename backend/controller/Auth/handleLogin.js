@@ -1,4 +1,3 @@
-const errResponse = require("../../response/errorResponse.js");
 const Response = require("../../response/successResponse.js");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
@@ -18,13 +17,13 @@ const handleLogin = async (req, res) => {
 		if (findData === null) {
 			return res
 				.status(400)
-				.json(new Response(400, "Wrong Username Or Password"));
+				.json(new Response(400, "Wrong username or password"));
 		}
 		const isPasswordValid = await bcrypt.compare(password, findData.password);
 		if (isPasswordValid === false) {
 			return res
 				.status(400)
-				.json(new Response(400, "Wrong Username Or Password"));
+				.json(new Response(400, "Wrong username or password"));
 		} else if (findData) {
 			const accessToken = jwt.sign(
 				{ username: findData.username, email: findData.email },
@@ -66,10 +65,10 @@ const handleLogin = async (req, res) => {
 				sameSite: "none",
 				maxAge: 30 * 24 * 60 * 60 * 1000, // 1 MONTHS
 			});
-			res.status(201).json(new Response(201, { accessToken, user: username }));
+			return res.status(200).json(new Response(200, { accessToken }));
 		}
 	} catch (err) {
-		res.status(400).json(new errResponse(400, err));
+		return res.sendStatus(500)
 	}
 };
 

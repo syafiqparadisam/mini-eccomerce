@@ -1,9 +1,10 @@
 const mongoose = require("mongoose");
 const handleLogger = require("../middleware/handleLogger");
+// const pg = require('pg')
 
 const connectDB = async () => {
 	try {
-		await mongoose.connect(process.env.DATABASE_URL, {
+		await mongoose.connect(process.env.MONGODB_URL, {
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
 		});
@@ -14,4 +15,7 @@ const connectDB = async () => {
 	}
 };
 
-module.exports = connectDB;
+module.exports = {
+	connectDB,
+	// postgres
+}

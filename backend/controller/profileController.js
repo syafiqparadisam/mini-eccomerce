@@ -1,5 +1,4 @@
 const users = require("../model/userSchema");
-const errResponse = require("../response/errorResponse");
 const Response = require("../response/successResponse");
 
 const getUserProfile = (req, res) => {
@@ -31,7 +30,7 @@ const updateUsernameEmail = async (req, res) => {
 		if (!data) return res.status(404).json(new Response(404));
 		res.status(200).json(new Response(200, data));
 	} catch (err) {
-		res.status(400).json(new errResponse(400, error, "Bad Request"));
+		return res.sendStatus(500)
 	}
 };
 

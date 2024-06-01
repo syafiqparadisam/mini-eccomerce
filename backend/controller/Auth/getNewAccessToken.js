@@ -1,4 +1,3 @@
-const errResponse = require("../../response/errorResponse.js");
 const Response = require("../../response/successResponse.js");
 const jwt = require("jsonwebtoken");
 const users = require("../../model/userSchema.js");
@@ -52,10 +51,10 @@ const getNewAccessToken = async (req, res) => {
 				process.env.ACCESS_TOKEN,
 				{ expiresIn: process.env.APPLICATION === "dev" ? "1h" : "1m" }
 			);
-			res.json(new Response(200, { accessToken, user: decoded.username }));
+			return res.json(new Response(200, { accessToken, user: decoded.username }));
 		}
 	} catch (error) {
-		res.status(400).json(new errResponse(400, error));
+		return res.sendStatus(500)
 	}
 };
 

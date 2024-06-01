@@ -5,7 +5,7 @@ const app = express();
 const expressWinston = require("express-winston");
 const cookieParser = require("cookie-parser");
 const corsOptions = require("./middleware/corsOptions");
-const connectDB = require("./config/connectMongoDB");
+const { connectDB,postgres } = require("./config/connectDB.js");
 const verifyJwt = require("./middleware/verifyJwt.js");
 const fileUpload = require("express-fileupload");
 require("dotenv").config();
@@ -27,14 +27,14 @@ app.use("*", express.json());
 app.use(cookieParser());
 
 // Public Routes
-app.use("/api/products", require("./routes/productsRoute"));
-app.use("/api/auth", require("./routes/authRoute.js"));
+app.use("/api/v1/products", require("./routes/productsRoute"));
+app.use("/api/v1/auth", require("./routes/authRoute.js"));
 
 // Verify User
 app.use("*", verifyJwt);
 // PROTECTED ROUTES
-app.use("/api/user/profile", require("./routes/profileRoute"));
-app.use("/api/user/cart",require("./routes/cartRoute"))
+app.use("/api/v1/user/profile", require("./routes/profileRoute"));
+app.use("/api/v1/user/cart",require("./routes/cartRoute"))
 // app.use("/api/users/order", require("./routes/orderRoute"));
 
 // ERROR LOGGER
