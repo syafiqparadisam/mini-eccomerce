@@ -1,10 +1,9 @@
 const product = require("../..//model/productSchema");
 const Response = require("../../response/successResponse");
 
-const getAllProducts = async (req, res) => {
+const getAllProducts = async (_, res) => {
 	try {
 		const products = await product.find();
-		console.log(products)
 		if (!products) return res.sendStatus(404);
 		res.status(200).json(new Response(200, products));
 	} catch (error) {

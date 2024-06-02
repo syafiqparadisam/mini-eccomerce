@@ -1,3 +1,5 @@
+import { validateLoginUser } from "../../validation/validateUser.js";
+
 const Response = require("../../response/successResponse.js");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
@@ -6,6 +8,10 @@ require("dotenv").config();
 
 const handleLogin = async (req, res) => {
 	const { username, password } = req.body;
+	const isValidate = await validateLoginUser.validateAsync(req.body)
+	if (isValidate?.error) {
+		return res.status(400).json(new Response(400, null, isValidate?.error?.details))
+	}
 	const cookies = req.cookies;
 	try {
 		if (!username?.length || !password?.length) {

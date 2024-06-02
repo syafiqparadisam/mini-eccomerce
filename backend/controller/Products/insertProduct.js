@@ -5,11 +5,8 @@ const Response = require("../../response/successResponse");
 const cloudinary = require("../../config/cloudinary");
 
 const insertProducts = async (req, res) => {
-	// const { nama, harga, deskripsi } = req.body;
-	// const isValidate = validationProducts.validate(req.body)
-	// if (isValidate?.error) {
-	// 	return res.status(400).json(new Response(400, isValidate?.error?.details))
-	// }
+	const header = req.headers
+	console.log(header)
 	const file = req.file;
 	console.log(file)
 	if (!file) return res.status(400).json(new Response(400, "Please upload your image"))
@@ -31,10 +28,9 @@ const insertProducts = async (req, res) => {
 				.status(400)
 				.json(new Response(400, "Error While Uploading File"));
 		}
-		res.status(200).json(new Response(200, "Succesfully created product"));
+		return res.status(200).json(new Response(200, "Succesfully created product"));
 	} catch (error) {
-		
-		return res.status(500)
+		return res.sendStatus(500)
 	}
 };
 

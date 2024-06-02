@@ -1,5 +1,7 @@
 node_modules
 .env
-backend/logs/*.log
+*.log
 *.rest
 mongo_data
+postgres_data
+frontend/.vscode

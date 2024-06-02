@@ -11,10 +11,10 @@ const handleLogout = async (req, res) => {
 
 	try {
 		
-	
 	const refreshToken = cookies.refToken;
 	const findData = await users.findOne({ refreshToken }).exec();
 
+	// check is user have refresh token before logout
 	if (!findData?.refreshToken) {
 		res.clearCookie("refToken", {
 			httpOnly: true,
@@ -23,17 +23,20 @@ const handleLogout = async (req, res) => {
 		});
 		res.sendStatus(204);
 	}
+
+	// delete refresh token user
 	findData.refreshToken = findData.refreshToken.filter(
 		(rt) => rt !== refreshToken
 	);
+
 	await findData.save();
 	res.clearCookie("refToken", {
 		httpOnly: true,
 		secure: true,
 		sameSite: "none",
 	});
+
 	return res.sendStatus(204)
-	
 	} catch (error) {
 		return res.sendStatus(500)
 	}

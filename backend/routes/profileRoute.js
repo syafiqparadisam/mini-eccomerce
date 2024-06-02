@@ -6,6 +6,6 @@ const verifyJwt = require("../middleware/verifyJwt.js");
 
 router
   .get("/", profileController.getUserProfile)
-  .put("/", profileController.updateUsernameEmail);
+  .patch("/", profileController.updateUsername);
 
 module.exports = router;

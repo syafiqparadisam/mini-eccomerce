@@ -6,4 +6,11 @@ const validationProducts = Joi.object({
     deskripsi: Joi.string().min(0).required(),
 })
 
-module.exports = validationProducts
+const validateQuantity = Joi.object({
+    quantity: Joi.number().positive().min(1).required()
+})
+
+module.exports = {
+    validationProducts,
+    validateQuantity
+}

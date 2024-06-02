@@ -1,7 +1,7 @@
 const Response = require("../../response/successResponse.js");
 const bcrypt = require("bcrypt");
 const users = require("../../model/userSchema.js");
-const validateUser = require("../../validation/validateUser.js");
+const {validateUser} = require("../../validation/validateUser.js");
 
 const createNewUser = async (req, res) => {
 	const { username, email, password } = req.body;
@@ -25,10 +25,7 @@ const createNewUser = async (req, res) => {
 				.status(409)
 				.json(new Response(409, `username or email already exists`));
 		}
-		const { error } = await validateUser.validateAsync(req.body);
-		if (error) {
-			throw error;
-		}
+	
 		const hashPassword = await bcrypt.hash(password, 10);
 		const data = await users.insertMany({
 			username,
@@ -39,7 +36,6 @@ const createNewUser = async (req, res) => {
 				new Response(201, `Succesfully created new user ${data[0].username}`)
 			);
 	} catch (err) {
-		console.log("err is", err)
 		return res.sendStatus(500)
 	}
 };
