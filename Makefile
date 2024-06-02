@@ -6,3 +6,6 @@ run-be: docker-compose
 
 run-fe:
 	cd frontend && bun run dev
+
+test-be: docker-compose
+	cd backend && npm test

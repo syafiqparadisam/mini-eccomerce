@@ -161,3 +161,17 @@ name: error,	 message: password authentication failed for user "syafiq"
     at readableAddChunk (node:stream:1894:30)
     at data (node:net:52:9)
 
+TIME: Sun Jun 02 2024 19:47:09 GMT+0700 (Western Indonesia Time), ID: b8f93d7a-4ef7-407c-ad66-dbb418eb1e22, 
+name: MongoTopologyClosedError,	 message: Topology is closed
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongoTopologyClosedError: Topology is closed
+    at /home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongodb/src/sdam/topology.ts:491:42
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+TIME: Sun Jun 02 2024 19:47:54 GMT+0700 (Western Indonesia Time), ID: 97a238a3-32b4-494a-84f0-8ee508282ac4, 
+name: MongoTopologyClosedError,	 message: Topology is closed
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongoTopologyClosedError: Topology is closed
+    at /home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongodb/src/sdam/topology.ts:491:42
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+

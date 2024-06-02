@@ -1,4 +1,4 @@
-import { validateLoginUser } from "../../validation/validateUser.js";
+const { validateLoginUser} = require("../../validation/validateUser.js")
 
 const Response = require("../../response/successResponse.js");
 const bcrypt = require("bcrypt");
@@ -14,22 +14,20 @@ const handleLogin = async (req, res) => {
 	}
 	const cookies = req.cookies;
 	try {
-		if (!username?.length || !password?.length) {
-			return res.status(400).json(new Response(400));
-		}
+		
 		const findData = await users.findOne({
 			username: username,
 		});
 		if (findData === null) {
 			return res
 				.status(400)
-				.json(new Response(400, "Wrong username or password"));
+				.json(new Response(400,null, "Wrong username or password"));
 		}
 		const isPasswordValid = await bcrypt.compare(password, findData.password);
 		if (isPasswordValid === false) {
 			return res
 				.status(400)
-				.json(new Response(400, "Wrong username or password"));
+				.json(new Response(400, null,"Wrong username or password"));
 		} else if (findData) {
 			const accessToken = jwt.sign(
 				{ username: findData.username, email: findData.email },

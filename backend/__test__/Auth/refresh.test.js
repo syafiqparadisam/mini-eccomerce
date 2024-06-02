@@ -6,7 +6,11 @@ const Response = require("../../response/successResponse");
 const errResponse = require("../../response/errorResponse");
 
 describe("Refresh Access Token GET /api/users/refresh", () => {
+	let server;
 	beforeAll(async () => {
+		server = await app.listen(process.env.APP_PORT, () => {
+			console.log("Server is running on port ", process.env.APP_PORT)
+		})
 		await mongoose.connect(process.env.DATABASE_URL, {
 			useNewUrlParser: true,
 			useUnifiedTopology: true,

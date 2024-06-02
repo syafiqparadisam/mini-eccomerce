@@ -8,3 +8,9 @@ mongoose.connection.once("open", () => {
 		console.log("Server is running on port " + port);
 	});
 });
+
+process.on("SIGINT", async () => {
+	await mongoose.connection.close()
+	await app.close()
+	process.exit(0)
+})

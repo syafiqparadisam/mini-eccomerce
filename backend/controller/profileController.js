@@ -1,4 +1,4 @@
-import { validateUsername } from "../validation/validateUser";
+const { validateUsername } = require("../validation/validateUser")
 
 const users = require("../model/userSchema");
 const Response = require("../response/successResponse");

@@ -7,6 +7,7 @@ const product = mongoose.Schema({
 	},
 	gambar: {
 		type: String,
+		required: false
 	},
 	harga: {
 		type: Number,
@@ -20,8 +21,9 @@ const product = mongoose.Schema({
 		type: [String],
 		required: false,
 	},
-	cloudinary_id: {
+	public_gambar_id: {
 		type: String,
+		required: false
 	},
 });
 

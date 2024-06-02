@@ -1,13 +1,13 @@
 const Response = require("../../response/successResponse.js");
 const bcrypt = require("bcrypt");
 const users = require("../../model/userSchema.js");
-const {validateUser} = require("../../validation/validateUser.js");
+const {validateUser} = require("../../validation/validateUser");
 
 const createNewUser = async (req, res) => {
 	const { username, email, password } = req.body;
 	const isValidate = validateUser.validate(req.body)
 	if (isValidate?.error) {
-		return res.status(400).json(new Response(400, isValidate?.error?.details))
+		return res.status(400).json(new Response(400,null, isValidate?.error?.details))
 	}
 
 	try {
@@ -23,7 +23,7 @@ const createNewUser = async (req, res) => {
 		if (isUsernameDuplicate || isEmailDuplicate) {
 			return res
 				.status(409)
-				.json(new Response(409, `username or email already exists`));
+				.json(new Response(409, null,`username or email already exists`));
 		}
 	
 		const hashPassword = await bcrypt.hash(password, 10);
@@ -33,7 +33,7 @@ const createNewUser = async (req, res) => {
 			password: hashPassword,
 		});
 		return res.status(201).json(
-				new Response(201, `Succesfully created new user ${data[0].username}`)
+				new Response(201, null,`Succesfully created new user ${data[0].username}`)
 			);
 	} catch (err) {
 		return res.sendStatus(500)

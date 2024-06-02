@@ -16,7 +16,8 @@ const users = new mongoose.Schema({
   refreshToken: [String],
   budget: {
     type: Number,
-    required: false
+    required: false,
+    default: 0
   }
 });
 
