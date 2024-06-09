@@ -53,7 +53,7 @@ const getNewAccessToken = async (req, res) => {
 				process.env.ACCESS_TOKEN,
 				{ expiresIn: process.env.APPLICATION === "dev" ? "1h" : "1m" }
 			);
-			return res.json(new Response(200, { accessToken, user: decoded.username }));
+			return res.json(new Response(200, { accessToken, user: decoded.username }, "Ok"));
 		}
 	} catch (error) {
 		return res.sendStatus(500)

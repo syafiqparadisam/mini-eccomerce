@@ -1,7 +1,6 @@
 const userSchema = require("../../model/userSchema")
 const app = require("../../index");
 const req = require("supertest");
-const users = require("../../model/userSchema");
 const mongoose = require("mongoose");
 const Response = require("../../response/successResponse");
 const {validateUser}= require("../../validation/validateUser");

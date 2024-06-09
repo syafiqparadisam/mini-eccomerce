@@ -53,8 +53,9 @@ const handleLogin = async (req, res) => {
 				}
 				res.clearCookie("refToken", {
 					httpOnly: true,
-					sameSite: "none",
 					secure: true,
+					maxAge: 0,
+					sameSite: "none",
 				});
 			}
 			const newRefreshToken = [...newRefreshTokenArray, refreshToken];
