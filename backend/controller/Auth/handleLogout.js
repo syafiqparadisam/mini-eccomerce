@@ -33,6 +33,7 @@ const handleLogout = async (req, res) => {
 	res.clearCookie("refToken", {
 		httpOnly: true,
 		secure: true,
+		maxAge: 0,
 		sameSite: "none",
 	});
 
