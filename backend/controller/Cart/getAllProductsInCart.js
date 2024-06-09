@@ -9,7 +9,7 @@ const getAllProductsInCart = async (req, res) => {
 			.findOne({ user: user })
 			.populate("items.productId");
 		if (!cartUser) {
-			return res.sendStatus(404);
+			return res.status(200).json(new Response(200, null, "You haven't yet cart, please insert product to your cart"))
 		}
 		return res.status(200).json(new Response(200, cartUser, "Ok"));
 	} catch (error) {

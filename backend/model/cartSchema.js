@@ -15,7 +15,7 @@ const cart = mongoose.Schema({
 	],
 	time: {
 		type: String,
-		default: () => format(new Date(), "dd MMMM yyyy", { locale: idLocale }),
+		default: () => new Date().toUTCString()
 	},
 });
 

@@ -9,3 +9,6 @@ run-fe:
 
 test-be: docker-compose
 	cd backend && npm test
+
+down:
+	cd infra && docker compose down

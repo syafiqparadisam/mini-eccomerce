@@ -12,6 +12,6 @@ router
 	.get("/", getAllProducts)
 	.get("/:id", getProductById)
 	.post("/", createProduct)
-	.post("/", upload.single("image"), uploadImageProduct);
+	.post("/image", upload.single("image"), uploadImageProduct);
 
 module.exports = router;

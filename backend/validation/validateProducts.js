@@ -1,9 +1,11 @@
 const Joi = require("joi")
 
 const validationProducts = Joi.object({
-    nama: Joi.string().min(3).required(),
-    harga: Joi.number().min(3).required(),
-    deskripsi: Joi.string().min(0).required(),
+    name: Joi.string().min(3).required(),
+    price: Joi.number().min(3).required(),
+    description: Joi.string().min(0).required(),
+    image: Joi.string().min(2).required(),
+    public_image_id: Joi.string().min(2).required()
 })
 
 const validateQuantity = Joi.object({

@@ -27,12 +27,12 @@ app.use("*", express.json());
 app.use(cookieParser());
 
 // Public Routes
-app.use("/api/v1/products", require("./routes/productsRoute"));
 app.use("/api/v1/auth", require("./routes/authRoute.js"));
 
 // Verify User
 app.use("*", verifyJwt);
 // PROTECTED ROUTES
+app.use("/api/v1/products", require("./routes/productsRoute"));
 app.use("/api/v1/user/profile", require("./routes/profileRoute"));
 app.use("/api/v1/user/cart",require("./routes/cartRoute"))
 // app.use("/api/users/order", require("./routes/orderRoute"));

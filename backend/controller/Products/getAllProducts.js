@@ -5,7 +5,7 @@ const getAllProducts = async (_, res) => {
 	try {
 		const products = await product.find();
 		if (!products) return res.sendStatus(404);
-		res.status(200).json(new Response(200, products));
+		return res.status(200).json(new Response(200, products));
 	} catch (error) {
 		return res.sendStatus(500)
 	}

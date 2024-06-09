@@ -7,7 +7,7 @@ const bcrypt = require("bcrypt")
 require("dotenv").config()
 
 
-describe("Login Test POST /api/v1/auth/login", () => {
+describe("Logout Test POST /api/v1/auth/logout", () => {
 let server;
 	let register;
 	let cookie;

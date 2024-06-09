@@ -1,6 +1,7 @@
 const cart = require("../../model/cartSchema");
 const product = require("../../model/productSchema");
 const jwt = require("jsonwebtoken");
+const Response = require("../../response/successResponse")
 
 const insertProductToCart = async (req, res) => {
 	const { user } = req;
@@ -38,12 +39,16 @@ const insertProductToCart = async (req, res) => {
 			if (findId >= 0) {
 				findUserInCart.items[findId].quantity += parseInt(quantity);
 				await findUserInCart.save();
-				return res.sendStatus(201)
+				return res.status(201).json(
+					new Response(201, null, "Successfully add product to cart" )
+				);
 			}  else {
 				
 				findUserInCart.items.push({ productId: id, quantity });
 				await findUserInCart.save();
-				return res.sendStatus(201)
+				return res.status(201).json(
+					new Response(201, null, "Successfully add product to cart" )
+				);
 			}
 		}
 	} catch (error) {

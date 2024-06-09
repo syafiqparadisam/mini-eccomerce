@@ -4,15 +4,15 @@ const { validationProducts } = require("../../validation/validateProducts");
 const Response = require("../../response/successResponse")
 
 module.exports = async (req,res) => {
-    const {nama,harga,deskripsi} = req.body
+    const {name, price,description,image,public_image_id} = req.body
 
     try {
-    const isValidate = await validationProducts.validateAsync(req.body)
+    const isValidate = await validationProducts.validateAsync({name, price,description,image,public_image_id})
     if (isValidate?.errors) {
         return res.status(400).json(new Response(400, null, isValidate?.errors?.details))
     }
 
-    const result = await productSchema.insertMany({nama,deskripsi,harga})
+    const result = await productSchema.insertMany({name, price,description,image,public_image_id})
     console.log(result)
 
     return res.status(200).json(new Response(200, result, "Successfully create product"))

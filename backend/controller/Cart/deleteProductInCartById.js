@@ -13,7 +13,7 @@ const deleteProductInCartById = async (req, res) => {
 		findUser.items = findUser.items.filter((data) => data.productId != id);
 
 		await findUser.save();
-		return res.status(200).json(new Response(200, "Succesfully deleted product"));
+		return res.status(200).json(new Response(200,null, "Succesfully deleted product"));
 	} catch (error) {
 		return res.sendStatus(500)
 	}

@@ -175,3 +175,11 @@ name: MongoTopologyClosedError,	 message: Topology is closed
     at /home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongodb/src/sdam/topology.ts:491:42
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
 
+TIME: Sun Jun 09 2024 21:15:53 GMT+0700 (Western Indonesia Time), ID: 66311101-d380-467b-9926-6c27800a521c, 
+name: MongooseServerSelectionError,	 message: connect ECONNREFUSED 127.0.0.1:27017
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:788:11)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:763:11)
+    at connectDB (/home/syafiq/Desktop/codingan/eccomerse/backend/config/connectDB.js:7:5)
+

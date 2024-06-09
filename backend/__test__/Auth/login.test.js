@@ -7,9 +7,6 @@ const bcrypt = require("bcrypt")
 const parseCookie = require("../utils/parseCookie")
 require("dotenv").config()
 
-
-
-
 describe("Login Test POST /api/v1/auth/login", () => {
 	let server;
 	let payload;
@@ -74,7 +71,7 @@ describe("Login Test POST /api/v1/auth/login", () => {
 		expect(cookie1.secure).toContain('Secure');
 		expect(cookie1.exp).toBeTruthy();
 
-		expect(response.body.accessToken).not.toBe(null)
+		expect(response.body.data.accessToken).not.toBe(null)
 		expect(response.headers["set-cookie"][0]).toBeTruthy()
 		expect(refreshToken[0]).toBeTruthy()
 		cookie = response.headers["set-cookie"]
@@ -88,7 +85,7 @@ describe("Login Test POST /api/v1/auth/login", () => {
 		const {refreshToken } = await userSchema.findOne({username: register.username}, {refreshToken: 1})
 		
 		expect(response.statusCode).toBe(200);
-		expect(response.body.accessToken).not.toBe(null)
+		expect(response.body.data.accessToken).not.toBe(null)
 		const cookie1 = parseCookie(response.headers["set-cookie"][0])
 		console.log("cookie 1",cookie1)
 

@@ -5,7 +5,7 @@ const userSchema = require("../../model/userSchema")
 const bcrypt = require("bcrypt")
 require("dotenv").config()
 
-describe("Refresh Access Token GET /api/users/refresh", () => {
+describe("Refresh Access Token GET /api/v1/auth/refresh", () => {
 	let server;
 	let register;
 	let cookie;
