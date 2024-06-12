@@ -8,9 +8,8 @@ require("dotenv").config()
 const path = require("node:path")
 
 
-describe("Login Test POST /api/v1/products/image", () => {
+describe("Upload image test POST /api/v1/products/image", () => {
 	let server;
-	let file;
 	let register;
     let accToken;
 	beforeAll(async () => {
@@ -28,7 +27,7 @@ describe("Login Test POST /api/v1/products/image", () => {
 			password: "12345678"
 		}
 
-        file = path.join(__dirname, "assets", "kacanggaruda.jpg")
+      
 		const hashPw = await bcrypt.hash(register.password, 10)
 		await userSchema.insertMany({username: register.username, email: register.email, password: hashPw})
 
@@ -50,7 +49,6 @@ describe("Login Test POST /api/v1/products/image", () => {
 	
 
     it('should return 400 When no file uploaded', async () => {
-        let noFile = "assets/noFile.jpg"
         const response = await req(server).post("/api/v1/products/image").set("Authorization", "Bearer " + accToken)
 
         const res = {
@@ -63,14 +61,42 @@ describe("Login Test POST /api/v1/products/image", () => {
         expect(response.body).toMatchObject(res)
     });
 
-    it('should return 200 OK When file successfully uploaded', async () => {
+    it('should return 415 Unsupported media type When file extname is not allowed', async () => {
+        const file =  path.join(__dirname, "assets", "1307837.ai")
         const response = await req(server).post("/api/v1/products/image").set("Authorization", "Bearer " + accToken).attach("image",file)
         
+        const res = {
+            statusCode: 415,
+            data: null,
+            message: `File type application/postscript not allowed`
+        }
         console.log(response.body)
-        await cloudinary.uploader.destroy(response.body.data.public_id)
+        expect(response.statusCode).toBe(res.statusCode)
+        expect(response.body).toMatchObject(res)
+    });
 
+    it('should return 422 Unprocessable entity When file size is larger than 2mb size', async () => {
+        const file =  path.join(__dirname, "assets", "chooseus_fac0xl.png")
+        const response = await req(server).post("/api/v1/products/image").set("Authorization", "Bearer " + accToken).attach("image",file)
+        
+        const res = {
+            statusCode: 422,
+            data: null,
+            message: "Image should be less than 2mb size"
+        }
+        
+        expect(response.statusCode).toBe(res.statusCode)
+        expect(response.body).toMatchObject(res)
+    });
+
+    it('should return 200 OK When file successfully uploaded', async () => {
+        const file =  path.join(__dirname, "assets", "kacanggaruda.jpg")
+        const response = await req(server).post("/api/v1/products/image").set("Authorization", "Bearer " + accToken).attach("image",file)
+        
+        
         expect(response.statusCode).toBe(200)
         expect(response.body.data.public_id).toBeTruthy()
         expect(response.body.data.public_url).toBeTruthy()
+        await cloudinary.uploader.destroy(response.body.data.public_id)
     });
 })
