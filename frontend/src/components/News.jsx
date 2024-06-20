@@ -13,9 +13,8 @@ const News = () => {
       pb={2}
       mb={5}
 		>
-			<Heading color={'white'}>Tokopedia The Best Marketplace In World</Heading>
+			<Heading color={'white'}>Toko Barokah The Best Marketplace In World</Heading>
 			<Text>Here You Can Find Your Things you want</Text>
-			
 		</Flex>
 	);
 };

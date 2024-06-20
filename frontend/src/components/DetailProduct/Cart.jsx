@@ -1,4 +1,3 @@
-import { useEffect, useRef, useState } from "react";
 import {
 	Card,
 	CardHeader,
@@ -12,8 +11,6 @@ import {
 } from "@chakra-ui/react";
 import { BsPencil, BsCart4, BsTrash } from "react-icons/bs";
 import toRupiah from "@develoka/angka-rupiah-js";
-import usePrice from "../../hooks/usePrice";
-import useCart from "../../hooks/useCart";
 import BuyAlert from "../../utils/BuyAlert";
 import { useDisclosure } from "@chakra-ui/react";
 import { useParams } from "react-router-dom";

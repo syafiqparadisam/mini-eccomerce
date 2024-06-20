@@ -8,7 +8,7 @@ require("dotenv").config();
 
 const handleLogin = async (req, res) => {
 	const { username, password } = req.body;
-	const isValidate = await validateLoginUser.validateAsync(req.body)
+	const isValidate = validateLoginUser.validate({ username, password })
 	if (isValidate?.error) {
 		return res.status(400).json(new Response(400, null, isValidate?.error?.details))
 	}

@@ -12,10 +12,9 @@ module.exports = async (req,res) => {
         return res.status(400).json(new Response(400, null, isValidate?.errors?.details))
     }
 
-    const result = await productSchema.insertMany({name, price,description,image})
-    console.log(result)
+       await productSchema.insertMany({name, price,description,image})
 
-    return res.status(200).json(new Response(200, result, "Successfully create product"))
+    return res.status(200).json(new Response(200, null, "Successfully create product"))
     } catch (error) {
         console.log(error)
         return res.sendStatus(500)    

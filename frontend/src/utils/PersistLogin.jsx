@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { selectAuthToken, selectUser, setCredentials } from "../features/auth/authSlice";
-import { useRefreshQuery } from "../service/refreshEndpoints";
+import { useRefreshQuery } from "../service/authServices";
 import {  Outlet, useNavigate } from "react-router-dom";
 
 const PersistLogin = () => {

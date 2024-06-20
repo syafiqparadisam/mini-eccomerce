@@ -1,3 +1,4 @@
+const verifyJwt = require("../middleware/verifyJwt.js")
 const express = require("express");
 const router = express.Router();
 const createNewUser = require("../controller/Auth/createNewUser.js");

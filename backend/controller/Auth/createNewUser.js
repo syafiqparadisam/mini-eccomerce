@@ -4,8 +4,9 @@ const users = require("../../model/userSchema.js");
 const {validateUser} = require("../../validation/validateUser");
 
 const createNewUser = async (req, res) => {
-	const { username, email, password } = req.body;
-	const isValidate = validateUser.validate(req.body)
+	const { username, email, password,confirmPassword } = req.body;
+	console.log(req.body)
+	const isValidate = validateUser.validate({username, email, password,confirmPassword})
 	if (isValidate?.error) {
 		return res.status(400).json(new Response(400,null, isValidate?.error?.details))
 	}

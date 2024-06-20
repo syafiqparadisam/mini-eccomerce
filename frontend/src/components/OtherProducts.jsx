@@ -1,12 +1,9 @@
 import { Flex, Grid, GridItem } from "@chakra-ui/react";
-import Product from "../../components/Product";
-import useOtherProducts from "../../hooks/useOtherProducts";
-import ProductSkeleton from "../Skeleton/ProductSkeleton";
-import { useProductQuery } from "../../service/productEndpoints";
+import Product from "./Product";
+import { useGetAllProductsQuery } from "../service/productServices.js";
 
 const OtherProducts = () => {
-	const { data: products, error, isError, isLoading, isSuccess } = useProductQuery();
-	console.log(isSuccess);
+	const { data: products, error, isError, isLoading, isSuccess } = useGetAllProductsQuery();
 
 	return (
 		<>

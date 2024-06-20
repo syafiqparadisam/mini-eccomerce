@@ -1,24 +1,27 @@
-import { useEffect, useState } from "react";
 import Product from "../components/Product";
 import ProductSkeleton from "../utils/Skeleton/ProductSkeleton";
-import { Grid, GridItem,Avatar } from "@chakra-ui/react";
+import { Grid, GridItem,Avatar, Flex, Heading, Text } from "@chakra-ui/react";
 import News from "../components/News";
-import { useDispatch, useSelector } from "react-redux";
-import { setProducts } from "../features/products/productsSlice";
-import { useProductQuery } from "../service/productEndpoints";
+import { useGetAllProductsQuery } from "../service/productServices.js";
 
 const Home = () => {
-	const dispatch = useDispatch();
-	const { data, error, isError, isLoading, isSuccess } = useProductQuery();
-	dispatch(setProducts(data));
+	const { data,isLoading, isSuccess } = useGetAllProductsQuery();
 
 	let components = (
 		<>
 			<News />
 		</>
 	);
+	console.log(data)
 	let content = (
 		<>
+				{isSuccess && data.data.length == 0 && (
+					<>
+						<Flex justifyContent={"center"} alignItems={"center"} width={"100%"}>
+							<Text color={"black"} fontSize={"2xl"} fontWeight={"bold"}>Product is empty</Text>
+						</Flex>
+					</>
+				)}
 			<Grid
 				templateColumns={"repeat(6, 170px)"}
 				gap={10}

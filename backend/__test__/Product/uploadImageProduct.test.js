@@ -41,6 +41,11 @@ describe("Upload image test POST /api/v1/products/image", () => {
 
 	});
 
+    beforeEach(async () => {
+		const resp = await req(server).get("/api/v1/auth/refresh").set("Cookie", cookies)
+        accToken = resp.body.data.accessToken
+	})
+
 	afterAll(async () => {
 		await userSchema.deleteOne({username: register.username})
 		await mongoose.connection.close();

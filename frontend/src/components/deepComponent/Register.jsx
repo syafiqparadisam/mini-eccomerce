@@ -8,7 +8,6 @@ import {
 } from "@chakra-ui/react";
 import { FcGoogle } from "react-icons/fc";
 import useRegisterSubmit from "../../hooks/useRegisterSubmit";
-// import registerSchema from "../../schema/registerSchema";
 import { useForm } from "react-hook-form";
 
 const Register = () => {

@@ -21,7 +21,7 @@ const handleLogout = async (req, res) => {
 			secure: true,
 			sameSite: "none",
 		});
-		res.sendStatus(204);
+		res.sendStatus(204)
 	}
 
 	// delete refresh token user

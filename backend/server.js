@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const app = require("./index");
+require("dotenv").config()
 const port = process.env.APP_PORT
 
 mongoose.connection.once("open", () => {
@@ -11,6 +12,5 @@ mongoose.connection.once("open", () => {
 
 process.on("SIGINT", async () => {
 	await mongoose.connection.close()
-	await app.close()
 	process.exit(0)
 })

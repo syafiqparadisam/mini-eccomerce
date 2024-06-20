@@ -5,5 +5,4 @@ router
 	.post("/product/:id", require("../controller/Cart/insertProductToCart"))
 	.delete("/product", require("../controller/Cart/deleteAllProductInCart.js"))
 	.delete("/product/:id", require("../controller/Cart/deleteProductInCartById.js"))
-	.patch("/product/:id");
 module.exports = router;

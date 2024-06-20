@@ -7,16 +7,11 @@ import InformasiProduct from "../components/DetailProduct/InformasiProduct";
 import SpesifikasiDetail from "../components/DetailProduct/SpesifikasiDetail";
 import Cart from "../components/DetailProduct/Cart";
 import OtherProducts from "../utils/components/OtherProducts";
+import { useGetProductByIdQuery } from "../service/productServicesjsx";
 
 const DetailProduct = () => {
 	const { id } = useParams();
-	const [data, setData] = useState(null);
-	console.log(data);
-	useEffect(() => {
-		axios
-			.get("http://localhost:8080/api/products/" + id)
-			.then((data) => setData(data.data.data));
-	}, []);
+	const {data,error,isSuccess} = useGetProductByIdQuery(id)
 
 	return (
 		<>

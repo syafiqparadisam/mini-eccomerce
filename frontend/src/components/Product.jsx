@@ -1,8 +1,6 @@
 import { Heading, Image, Box, Text, Flex, LinkBox } from "@chakra-ui/react";
-import { useEffect, useState } from "react";
 import toRupiah from "@develoka/angka-rupiah-js";
 import { BsStar } from "react-icons/bs";
-import { AiFillStar } from "react-icons/ai";
 import { FaCity } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -11,7 +9,7 @@ const Product = ({
 }) => {
 	
 	return (
-		<Link to={`http://localhost:3000/product/${_id}`} reloadDocument>
+		<Link to={`/product/${_id}`} reloadDocument>
 			<Flex flexDir={"column"} boxShadow={"md"} borderRadius={"10px"} pb={2}>
 				<Image
 					src={gambar}

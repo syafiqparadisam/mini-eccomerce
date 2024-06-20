@@ -14,12 +14,12 @@ require("dotenv").config();
 app.use(expressWinston.logger(handleLogger.successLogs));
 console.log(process.env.APPLICATION)
 // koneksi FE ke BE lancar
-app.use(cors(process.env.APPLICATION === "dev" ? null : corsOptions));
+app.use(cors(corsOptions));
 connectDB();
 
 app.use(express.urlencoded({ extended: false }));
 
-app.use("*", express.json());
+app.use(express.json());
 
 // MIDDLEWARE FOR FILE UPLOAD
 
@@ -27,15 +27,17 @@ app.use("*", express.json());
 app.use(cookieParser());
 
 // Public Routes
-app.use("/api/v1/auth", require("./routes/authRoute.js"));
+app.use("/api/v1/auth", require("./routes/authRoute"));
+app.use("/api/v1/products", require("./controller/Products/getAllProducts"))
+app.use("/api/v1/products/:id", require("./controller/Products/getProductById"))
 
 // Verify User
 app.use("*", verifyJwt);
+
 // PROTECTED ROUTES
 app.use("/api/v1/products", require("./routes/productsRoute"));
 app.use("/api/v1/user/profile", require("./routes/profileRoute"));
 app.use("/api/v1/user/cart",require("./routes/cartRoute"))
-// app.use("/api/users/order", require("./routes/orderRoute"));
 
 // ERROR LOGGER
 app.use(expressWinston.errorLogger(handleLogger.errorLogs));

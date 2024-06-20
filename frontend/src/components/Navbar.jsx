@@ -13,9 +13,9 @@ import {
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { selectAuthToken, selectUser } from "../../features/auth/authSlice";
+import { selectAuthToken, selectUser } from "../features/auth/authSlice";
 import { FiInbox } from "react-icons/fi";
-import DropdownNavbar from "./DropdownNavbar";
+import DropdownNavbar from "../utils/components/DropdownNavbar";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -53,11 +53,7 @@ const Navbar = () => {
 						focusBorderColor="transparent"
 					/>
 				</Flex>
-				<Link to={"/pesanan"} reloadDocument>
-					<Flex justifyContent={"space-between"} alignItems={"center"}>
-						<BsCart4 size={"20px"} />
-					</Flex>
-				</Link>
+				
 				{token ? (
 					<>
 						<HStack justifyContent={"right"} alignItems={"center"}>
@@ -73,6 +69,11 @@ const Navbar = () => {
 						{dropdownMenu && (
 							<DropdownNavbar/>
 						)}
+						<Link to={"/cart"} reloadDocument>
+							<Flex justifyContent={"space-between"} alignItems={"center"}>
+								<BsCart4 size={"20px"} />
+							</Flex>
+						</Link>
 					</>
 				) : (
 					<Flex justifyContent={"space-around"}>
