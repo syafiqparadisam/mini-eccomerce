@@ -1,0 +1,185 @@
+TIME: Mon Apr 15 2024 07:32:55 GMT+0700 (Western Indonesia Time), ID: 34ce8ec5-7c60-4cf7-8beb-fb96bf98d266, 
+name: MongooseError,	 message: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:206:11)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:738:34)
+    at Mongoose.connect (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/index.js:404:15)
+    at connectDB (/home/syafiq/Desktop/codingan/eccomerse/backend/config/connectMongoDB.js:6:18)
+    at Object.<anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/index.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+
+TIME: Mon Apr 15 2024 07:33:06 GMT+0700 (Western Indonesia Time), ID: 3d4ede7c-e328-4ef3-8b4f-cb4250b74371, 
+name: MongooseError,	 message: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:206:11)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:738:34)
+    at Mongoose.connect (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/index.js:404:15)
+    at connectDB (/home/syafiq/Desktop/codingan/eccomerse/backend/config/connectMongoDB.js:6:18)
+    at Object.<anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/index.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+
+TIME: Mon Apr 15 2024 07:34:08 GMT+0700 (Western Indonesia Time), ID: da309086-0ac9-4cf7-be61-8557d944e0b4, 
+name: MongoParseError,	 message: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongodb/lib/connection_string.js:191:17)
+    at new MongoClient (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongodb/lib/mongo_client.js:48:63)
+    at NativeConnection.createClient (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:288:14)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:738:34)
+    at Mongoose.connect (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/index.js:404:15)
+    at connectDB (/home/syafiq/Desktop/codingan/eccomerse/backend/config/connectMongoDB.js:6:18)
+    at Object.<anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/index.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+
+TIME: Mon Apr 15 2024 08:30:01 GMT+0700 (Western Indonesia Time), ID: 15c5c903-5670-4c71-a4da-2f27cf839d29, 
+name: ReferenceError,	 message: APP is not defined
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:ReferenceError: APP is not defined
+    at NativeConnection.<anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/server.js:7:13)
+    at Object.onceWrapper (node:events:628:28)
+    at NativeConnection.emit (node:events:514:28)
+    at Connection.onOpen (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:684:8)
+    at _setClient (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:395:8)
+    at NativeConnection.createClient (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:298:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NativeConnection.openUri (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:761:5)
+    at async connectDB (/home/syafiq/Desktop/codingan/eccomerse/backend/config/connectMongoDB.js:6:3)
+
+TIME: Fri May 10 2024 12:53:06 GMT+0700 (Western Indonesia Time), ID: 4bf339f4-a94c-40fd-8d85-01cf084f384e, 
+name: MongooseServerSelectionError,	 message: connect ECONNREFUSED 127.0.0.1:27017
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:788:11)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:763:11)
+    at async connectDB (/home/syafiq/Desktop/codingan/eccomerse/backend/config/connectMongoDB.js:6:3)
+
+TIME: Fri May 10 2024 13:59:05 GMT+0700 (Western Indonesia Time), ID: fc133601-6bf1-41bf-bd50-4c2ad349a03c, 
+name: ReferenceError,	 message: Client is not defined
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:ReferenceError: Client is not defined
+    at connectDB (/home/syafiq/Desktop/codingan/eccomerse/backend/config/connectDB.js:12:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+TIME: Fri May 10 2024 14:04:02 GMT+0700 (Western Indonesia Time), ID: 84708029-f3ea-4763-954b-36e4c14d5eca, 
+name: error,	 message: password authentication failed for user "syafiq"
+, code: 28P01,	 syscall: undefined,	 hostname: undefined,
+ details:error: password authentication failed for user "syafiq"
+    at Parser.parseErrorMessage (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:283:98)
+    at Parser.handlePacket (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:122:29)
+    at Parser.parse (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:35:38)
+    at Socket.<anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+
+TIME: Fri May 10 2024 14:04:45 GMT+0700 (Western Indonesia Time), ID: 8afebd3c-64bd-4f59-814a-13c5708ee2d6, 
+name: error,	 message: password authentication failed for user "syafiq"
+, code: 28P01,	 syscall: undefined,	 hostname: undefined,
+ details:error: password authentication failed for user "syafiq"
+    at new DatabaseError (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/messages.js:38:13)
+    at parseErrorMessage (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:288:8)
+    at parse (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:36:26)
+    at <anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/index.js:11:69)
+    at emit (native)
+    at addChunk (node:stream:1940:22)
+    at readableAddChunk (node:stream:1894:30)
+    at data (node:net:52:9)
+
+TIME: Fri May 10 2024 14:05:45 GMT+0700 (Western Indonesia Time), ID: c99adf20-952e-4be9-a09f-ff24e96f7d5e, 
+name: error,	 message: password authentication failed for user "syafiq"
+, code: 28P01,	 syscall: undefined,	 hostname: undefined,
+ details:error: password authentication failed for user "syafiq"
+    at new DatabaseError (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/messages.js:38:13)
+    at parseErrorMessage (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:288:8)
+    at parse (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:36:26)
+    at <anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/index.js:11:69)
+    at emit (native)
+    at addChunk (node:stream:1940:22)
+    at readableAddChunk (node:stream:1894:30)
+    at data (node:net:52:9)
+
+TIME: Fri May 10 2024 14:08:20 GMT+0700 (Western Indonesia Time), ID: 42708ba8-93ea-4315-a1ad-f31d548434a9, 
+name: MongooseServerSelectionError,	 message: Failed to connect
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongooseServerSelectionError: Failed to connect
+    at new MongooseError (:1:28)
+    at new MongooseServerSelectionError (:1:28)
+    at _handleConnectionErrors (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:788:37)
+    at <anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:762:37)
+    at processTicksAndRejections (:61:39)
+
+TIME: Fri May 10 2024 14:09:47 GMT+0700 (Western Indonesia Time), ID: 0625db56-d155-42d3-8d39-c5efe08b6c9a, 
+name: error,	 message: password authentication failed for user "syafiq"
+, code: 28P01,	 syscall: undefined,	 hostname: undefined,
+ details:error: password authentication failed for user "syafiq"
+    at new DatabaseError (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/messages.js:38:13)
+    at parseErrorMessage (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:288:8)
+    at parse (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:36:26)
+    at <anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/index.js:11:69)
+    at emit (native)
+    at addChunk (node:stream:1940:22)
+    at readableAddChunk (node:stream:1894:30)
+    at data (node:net:52:9)
+
+TIME: Fri May 10 2024 14:09:53 GMT+0700 (Western Indonesia Time), ID: f7f3e4c8-0089-4eb9-ba79-a4bfa3fcfbf2, 
+name: error,	 message: password authentication failed for user "syafiq"
+, code: 28P01,	 syscall: undefined,	 hostname: undefined,
+ details:error: password authentication failed for user "syafiq"
+    at new DatabaseError (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/messages.js:38:13)
+    at parseErrorMessage (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:288:8)
+    at parse (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:36:26)
+    at <anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/index.js:11:69)
+    at emit (native)
+    at addChunk (node:stream:1940:22)
+    at readableAddChunk (node:stream:1894:30)
+    at data (node:net:52:9)
+
+TIME: Fri May 10 2024 14:11:11 GMT+0700 (Western Indonesia Time), ID: 0731f8a3-2165-427d-95cd-165211b81b5d, 
+name: error,	 message: password authentication failed for user "syafiq"
+, code: 28P01,	 syscall: undefined,	 hostname: undefined,
+ details:error: password authentication failed for user "syafiq"
+    at new DatabaseError (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/messages.js:38:13)
+    at parseErrorMessage (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:288:8)
+    at parse (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/parser.js:36:26)
+    at <anonymous> (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/pg-protocol/dist/index.js:11:69)
+    at emit (native)
+    at addChunk (node:stream:1940:22)
+    at readableAddChunk (node:stream:1894:30)
+    at data (node:net:52:9)
+
+TIME: Sun Jun 02 2024 19:47:09 GMT+0700 (Western Indonesia Time), ID: b8f93d7a-4ef7-407c-ad66-dbb418eb1e22, 
+name: MongoTopologyClosedError,	 message: Topology is closed
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongoTopologyClosedError: Topology is closed
+    at /home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongodb/src/sdam/topology.ts:491:42
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+TIME: Sun Jun 02 2024 19:47:54 GMT+0700 (Western Indonesia Time), ID: 97a238a3-32b4-494a-84f0-8ee508282ac4, 
+name: MongoTopologyClosedError,	 message: Topology is closed
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongoTopologyClosedError: Topology is closed
+    at /home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongodb/src/sdam/topology.ts:491:42
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+TIME: Sun Jun 09 2024 21:15:53 GMT+0700 (Western Indonesia Time), ID: 66311101-d380-467b-9926-6c27800a521c, 
+name: MongooseServerSelectionError,	 message: connect ECONNREFUSED 127.0.0.1:27017
+, code: undefined,	 syscall: undefined,	 hostname: undefined,
+ details:MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:788:11)
+    at NativeConnection.openUri (/home/syafiq/Desktop/codingan/eccomerse/backend/node_modules/mongoose/lib/connection.js:763:11)
+    at connectDB (/home/syafiq/Desktop/codingan/eccomerse/backend/config/connectDB.js:7:5)
+
