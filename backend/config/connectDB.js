@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 const handleLogger = require("../middleware/handleLogger");
-// const pg = require('pg')
 
 const connectDB = async () => {
 	try {
@@ -16,6 +15,5 @@ const connectDB = async () => {
 };
 
 module.exports = {
-	connectDB,
-	// postgres
+	connectDB
 }

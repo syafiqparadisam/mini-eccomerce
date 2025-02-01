@@ -11,6 +11,7 @@
     "dev": "nodemon server.js",
     "lint": "eslint --ext .js",
     "build": "",
+    "migrate": "cd migrations && node *.js",
     "test": "npx jest"
   },
   "dependencies": {
@@ -25,6 +26,7 @@
     "express-winston": "^4.2.0",
     "joi": "^17.9.2",
     "jsonwebtoken": "^9.0.1",
+    "migrate-mongoose": "^4.0.0",
     "mongoose": "^7.4.3",
     "multer": "^1.4.5-lts.1",
     "pg": "^8.11.5",

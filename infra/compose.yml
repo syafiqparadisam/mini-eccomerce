@@ -1,25 +1,17 @@
-version: "3.8"
-
 services:
   mongodb:
     image: mongo:latest
     container_name: mongodb-eccomerse
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: $MONGO_USER
+      MONGO_INITDB_ROOT_PASSWORD: $MONGO_PASSWORD
+      MONGO_INITDB_DATABASE: $MONGO_INITDB_DATABASE
     ports:
-      - "27017:27017"
+      - "127.0.0.1:27017:27017"
     volumes:
-      - ./mongo_data:/data/db
-  # postgres:
-  #   image: postgres:16.2
-  #   container_name: postgres-eccomerse
-  #   restart: always
-  #   environment:
-  #     POSTGRES_DB: eccomerse
-  #     POSTGRES_USER: syafiq
-  #     POSTGRES_PASSWORD: 'root'
-  #   ports:
-  #     - "5432:5432"
-  #   volumes:
-  #     - ./postgres_data:/var/lib/postgresql/data
+      - mongo_data:/data/db
 
 volumes:
-  postgres_data:
+  mongo_data:
+    driver: local

@@ -19,6 +19,7 @@ const Configuration = {
 	 */
 	rules: {
 	  'type-enum': [2, 'always', ['feat', 'fix', 'chore', 'docs', 'style', 'refactor', 'test', 'build']],
+	  'header-max-length': [2, 'always', 150],
 	},
 	/*
 	 * Array of functions that return true if commitlint should ignore the given message.

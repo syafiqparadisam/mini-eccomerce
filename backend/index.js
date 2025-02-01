@@ -1,3 +1,4 @@
+const mongoose = require("mongoose");
 const express = require("express");
 const cors = require("cors");
 const handleLogger = require("./middleware/handleLogger");
@@ -5,15 +6,16 @@ const app = express();
 const expressWinston = require("express-winston");
 const cookieParser = require("cookie-parser");
 const corsOptions = require("./middleware/corsOptions");
-const { connectDB,postgres } = require("./config/connectDB.js");
+const { connectDB } = require("./config/connectDB.js");
 const verifyJwt = require("./middleware/verifyJwt.js");
 const fileUpload = require("express-fileupload");
 require("dotenv").config();
 
 // LOGGER
 app.use(expressWinston.logger(handleLogger.successLogs));
-console.log(process.env.APPLICATION)
 // koneksi FE ke BE lancar
+
+mongoose.set("autoCreate", false)
 app.use(cors(corsOptions));
 connectDB();
 
